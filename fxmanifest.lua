@@ -4,6 +4,7 @@ game 'rdr3'
 
 author 'Markus'
 description 'mms-luckytickets'
+version '1.1.0'
 
 client_scripts {
 	'client/client.lua'
