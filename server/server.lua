@@ -57,7 +57,6 @@ end)
 RegisterNetEvent('mms-luckytickets:server:randomitem' , function(randomitem)
     local src = source
     local Player = RSGCore.Functions.GetPlayer(src)
-    print(randomitem)
     Player.Functions.AddItem(randomitem,1)
     TriggerClientEvent("inventory:client:ItemBox", src, RSGCore.Shared.Items[randomitem], "add")
     TriggerClientEvent('ox_lib:notify', src, {title = 'Du erhältst 1 ' .. randomitem .. ' . Glückwunsch!!!', description =  'Erfolg', type = 'success' , duration = 5000})
