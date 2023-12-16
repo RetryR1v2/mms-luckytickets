@@ -1,0 +1,3 @@
+-- mms-luckytickets
+
+    ['lotterielos']  = {['name'] = 'lotterielos',  ['label'] = 'Lotterie Los',  ['weight'] = 0,  ['type'] = 'item', ['image'] = 'lotterielos.png',  ['unique'] = false, ['useable'] = true,  ['shouldClose'] = true, ['combinable'] = nil, ['level'] = 0, ['description'] = 'Jedes Los Gewinnt!'},
